@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".GameView">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:alpha="5"
+                android:fontFamily="@font/sunday"
+                android:text="@string/moves"
+                android:textAlignment="center"
+                android:textColor="@color/background"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/sunday"
+                android:text="@string/point"
+                android:textAlignment="center"
+                android:textColor="@color/background"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/moves"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:alpha="5"
+                android:fontFamily="@font/sunday"
+                android:textAlignment="center"
+                android:textColor="@color/background"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/sunday"
+                android:textAlignment="center"
+                android:textColor="@color/background"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:textAlignment="center">
+
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/card1" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/card1" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/card1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/card1" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/card1" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/card1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/card1" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/card1" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/card1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/card1" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/card1" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/card1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

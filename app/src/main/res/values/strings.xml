@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LabActivity03</string>
+
+    <string name="play"> Start </string>
+    <string name="score"> Your Score </string>
+    <string name="highscore"> Highest Score </string>
+    <string name="moves">Moves</string>
+    <string name="point">Score</string>
+</resources>
